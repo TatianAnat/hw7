@@ -25,16 +25,31 @@ public class Main {
             }
         }
         //task3
-        int year = 1584;
+        int year = 2021;
         if (year > 1584) {
             if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
                 System.out.println(year + " год является високосным");
             } else {
                 System.out.println(year + " год не является високосным");
             }
-        }
-        else {
+        } else {
             System.out.println("введите год больше 1584");
         }
+        //task4
+        int deliveryDistance = 95; //дистанция до клиента
+        int deliveryDays = 0;
+        if (deliveryDistance <= 100) {
+            if (deliveryDistance > 20) {
+                deliveryDays = deliveryDays + 1; }
+            if (deliveryDistance > 60) {
+                    deliveryDays = deliveryDays + 1;}
+            if (deliveryDistance <= 100) {
+                    deliveryDays = deliveryDays + 1; }
+            System.out.println("Потребуется дней " + deliveryDays);
+                }
+        else {
+            System.out.println("Доставки нет");
+            }
+        }
     }
-}
+
