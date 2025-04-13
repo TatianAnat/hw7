@@ -3,9 +3,9 @@ public class Main {
         //task1
         byte clienOS = 0;
         if (clienOS == 1) {
-            System.out.println("Установите версию приложения для iOS по ссылке");
+            System.out.println("Установите версию приложения для iOS по ссылке ");
         } else {
-            System.out.println("Установите версию приложения для Android по ссылке");
+            System.out.println("Установите версию приложения для Android по ссылке ");
         }
         //task2
         byte clienOSNew = 0;
