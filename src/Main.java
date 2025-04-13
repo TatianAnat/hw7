@@ -12,9 +12,9 @@ public class Main {
         int clientDeviceYear = 2013;
         if (clienOSNew == 1) {
             if (clientDeviceYear >= 2015) {
-                System.out.println("Установите версию приложения для iOS по ссылке");
+                System.out.println("Установите версию приложения для iOS по ссылке ");
             } else {
-                System.out.println("Установите облегченную версию приложения для iOS по ссылке");
+                System.out.println("Установите облегченную версию приложения для iOS по ссылке ");
             }
         }
         if (clienOSNew == 0) {
