@@ -48,7 +48,7 @@ public class Main {
             System.out.println("Потребуется дней " + deliveryDays);
                 }
         else {
-            System.out.println("Доставки нет");
+            System.out.println("Доставки нет!");
             }
         //task5
         int monthNumber = 12;
